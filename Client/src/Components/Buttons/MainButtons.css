@@ -1,0 +1,25 @@
+.sb__MainButtons {
+    top: 0;
+    padding: 0px;
+}
+
+.sb__MainButtons-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb__MainButtons-links_div {
+    position: absolute;
+    right: 50px;
+}
+
+.sb__MainButtons-links a {
+    text-decoration: none;
+    color: forestgreen;
+    font-size: 25px;
+}
+.sb__MainButtons-links_div p {
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline;
+}

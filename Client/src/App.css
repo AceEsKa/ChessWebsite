@@ -1,0 +1,83 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  background: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+select, textarea, input[type="text"] {
+  margin: 0 !important;
+  border-radius: 8px;
+  border: 1px solid #F0F5F7;
+  padding: 5px 20px;
+  font-size: 15px;
+  background: #F0F5F7;
+  width: 100% !important;
+  color: #696969;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: none;
+  height: 60px;
+}
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+label {
+  padding: 0;
+  font-size: 17px;
+  color: #202124;
+  font-weight: 500;
+  margin: 27px 0 10px;
+  display: block;
+}
+
+.btn, button {
+  outline: none !important;
+}
+.btn__theme {
+  color: #fff;
+  background-color: #673ab7;
+  border-color: #673ab7;
+}
+.App{
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  padding: 70px 0;
+}
+.App__tittle {
+  text-align: center;
+  font-size: 47px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.App__tittle span{
+  color: #673ab7;
+}
+span.required {
+  color: #f44336;
+}
+form.update__forms {
+  border: 1px solid #1967d2;
+  box-shadow: 0 6px 15px 0 rgb(64 79 104 / 5%);
+
+}
+.btn__add{
+  margin: 37px auto;
+  display: table;
+  padding: 14px 37px 14px 37px;
+  font-size: 20px;
+  line-height: normal;
+}
+.post__description{
+  position: relative;
+}
+iframe{
+  width: 967px;
+  height: 537px;
+}

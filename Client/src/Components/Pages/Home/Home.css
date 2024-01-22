@@ -1,0 +1,21 @@
+.Home{
+    height: 100vh;
+    text-align: center;
+    background-image: url("../../../Assets/Fototapeta_Šachovnica_3371.jpg.large.jpg");
+    position: fixed;
+    min-width: 100%;
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-position: center;
+    overflow-y: auto;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+}
